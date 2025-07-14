@@ -67,7 +67,7 @@ function App() {
       <section style={styles.section}>
         <h2>Experience</h2>
         <p>
-          <strong>Web Developer Intern @ XYZ Startup</strong><br />
+          <strong>Web Developer Intern @Visual Labs </strong><br />
           <em>June 2025 – Present</em><br />
           • Developed front-end portals using Bootstrap<br />
           • Version control with GitHub<br />

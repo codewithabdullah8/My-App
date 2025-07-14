@@ -1,3 +1,4 @@
+node_modules/
 # Logs
 logs
 *.log
@@ -22,3 +23,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+dist/chaz
+
+.env
+.DS_Store   
+*.log
