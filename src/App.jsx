@@ -5,7 +5,7 @@ function App() {
     <>
       <header style={styles.header}>
         <img 
-          src="My.png" 
+          src="/My.png" 
           alt="Abdullah Zahur Sahibole" 
           style={styles.profileImg} 
         />
@@ -67,7 +67,7 @@ function App() {
       <section style={styles.section}>
         <h2>Experience</h2>
         <p>
-          <strong>Web Developer Intern @Visual Labs </strong><br />
+          <strong>Web Developer Intern @Visual Labs</strong><br />
           <em>June 2025 – Present</em><br />
           • Developed front-end portals using Bootstrap<br />
           • Version control with GitHub<br />
@@ -107,7 +107,6 @@ function App() {
   );
 }
 
-// 👇 Updated CSS styles with more details
 const styles = {
   header: {
     background: 'linear-gradient(to right, #0d6efd, #5c88ff)',
@@ -129,6 +128,7 @@ const styles = {
     height: '150px',
     marginBottom: '1rem',
     border: '4px solid white',
+    objectFit: 'cover',
     transition: 'transform 0.3s ease-in-out',
   },
   section: {
