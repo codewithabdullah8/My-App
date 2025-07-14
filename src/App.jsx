@@ -5,7 +5,7 @@ function App() {
     <>
       <header style={styles.header}>
         <img 
-          src="Placeholder.png/150" 
+          src="My.png/150" 
           alt="Abdullah Zahur Sahibole" 
           style={styles.profileImg} 
         />
